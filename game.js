@@ -52,7 +52,7 @@ function gameOver(){
     $('body').removeClass('game-over');
   }, 200);
 
-  $('h1').text('Game Over :( Press any key to restart');
+  $('span').text('Game Over :( Press any key to restart');
 }
 
 function checkAnswer(currentIndex){
@@ -118,6 +118,7 @@ $(document).on('keydown', function(){
   gamePattern = [];
   userClickedPattern = [];
   level = 0;
+  $('span').text("");
   start();
 })
 

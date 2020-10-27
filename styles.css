@@ -3,12 +3,15 @@ body {
 	background: linear-gradient(to right, #5c258d, #4389a2);
 }
 
-#level-title {
+.text {
 	font-family: "Press Start 2P", cursive;
-	font-size: 3rem;
-	margin: 3%;
 	color: #f5edd4;
 	text-shadow: 5px 5px rgb(58, 58, 58);
+}
+
+.title {
+	font-size: 3rem;
+	margin: 3%;
 }
 
 .container {
@@ -27,7 +30,7 @@ body {
 }
 
 .game-over {
-	background-color: red;
+	background: linear-gradient(#f00000, #dc281e);
 	opacity: 0.8;
 }
 
